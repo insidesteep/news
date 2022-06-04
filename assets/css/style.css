@@ -1810,7 +1810,7 @@ pre code {
 }
 
 .bg-caravan {
-  background-image: url(../images/image_2022-06-02_22-06-45.png);
+  background-image: url(../images/bannercha.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9791,6 +9791,10 @@ h6, .h6 {
   .display-1 {
     font-size: 3rem;
   }
+
+  .banner-top-thumb-wrap {
+    display: none;
+  }
 }
 
 .display-2 {
@@ -10186,6 +10190,12 @@ h6, .h6 {
   padding: 0;
 }
 
+.navbar-right {
+  background-color: #007bff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .navbar-left li, .navbar-right li {
   list-style: none;
   color: #000;
@@ -10199,8 +10209,12 @@ h6, .h6 {
 }
 
 @media (max-width: 999px) {
-  .navbar-left, .navbar-right {
+  .navbar-left {
     display: none;
+  }
+
+  .navbar-right {
+    margin-right: 65px;
   }
 }
 
@@ -10210,7 +10224,7 @@ h6, .h6 {
 }
 
 .navbar-right li a {
-  color: #000;
+  color: #fff;
   font-size: 12px;
   padding: 0 5px;
   border-right: 1px solid #dbdbdb;
@@ -10500,7 +10514,8 @@ h6, .h6 {
 }
 
 .world-news,
-.popular-news {
+.popular-news,
+.photo-gallery {
   padding: 37px 0;
 }
 
