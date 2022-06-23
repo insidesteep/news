@@ -8,6 +8,7 @@ $(function () {
       autoplaySpeed: 2000,
       autoplayHoverPause: true,
       autoWidth: false,
+      autoHeight: false,
       dots: true,
       margin: 0,
       responsiveClass: true,
