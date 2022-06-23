@@ -468,6 +468,7 @@
   transition: none;
   padding: 18rem 0;
   overflow-y: scroll;
+  z-index: -1;
 }
 .Gallery-header {
   position: absolute;
