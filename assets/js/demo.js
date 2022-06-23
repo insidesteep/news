@@ -88,3 +88,18 @@ $(function () {
     iframe.removeAttribute("src");
   });
 });
+
+(function () {
+  Galleria.loadTheme(
+    "https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js"
+  );
+  Galleria.configure({
+    transition: "fade",
+    imageCrop: false,
+    lightbox: true,
+    responsive: true,
+    showInfo: true,
+    height: 600,
+  });
+  Galleria.run(".galleria");
+})();
