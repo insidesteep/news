@@ -1925,7 +1925,7 @@ pre code {
 
 .bg-caravan {
   background-image: url(../images/bannercha.jpg);
-  background-position: center center;
+  background-position: center 75%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10768,11 +10768,6 @@ h6,
   font-size: 16px;
 }
 
-.navbar-bottom-menu .navbar-nav .nav-item:last-child {
-  padding-right: 0;
-  padding-left: 50px;
-}
-
 @media (max-width: 767px) {
   .navbar-bottom-menu .navbar-nav .nav-item:last-child {
     display: none;
@@ -10802,6 +10797,7 @@ h6,
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   background: #ffffff;
+  padding: 0 2rem;
 }
 
 @media (max-width: 999px) {
@@ -11397,6 +11393,7 @@ footer .footer-logo {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  height: calc(100% - 72px);
 }
 
 .backdrop__content iframe {
@@ -11442,7 +11439,7 @@ footer .footer-logo {
 .pagination a.active {
   background-color: #0a62fb;
   color: white;
-  border: 1px solid #0a62fb
+  border: 1px solid #0a62fb;
 }
 
 .pagination a:hover:not(.active) {
