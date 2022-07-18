@@ -1924,7 +1924,7 @@ pre code {
 }
 
 .bg-caravan {
-  background-image: url(../images/bannercha.jpg);
+  background-image: url(../images/banner.png);
   background-position: center 75%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10921,6 +10921,11 @@ h6,
   left: 40px;
   bottom: 40px;
   color: #ffffff;
+}
+
+.carousel-content a {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 999px) {

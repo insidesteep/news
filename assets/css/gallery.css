@@ -50,7 +50,7 @@
 }
 .Card-image {
   position: relative;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #607d8b;
